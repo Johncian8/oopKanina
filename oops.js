@@ -116,7 +116,7 @@ function multiNum(){
 
     setTimeout(()=>{
 
-        h1.innerHTML = `The answer is ${mults.mult}`
+        h1.innerHTML = `The product is ${mults.mult}`
     }, 2000)
 
 
