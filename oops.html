@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="oops.js" defer></script>
+
+    <style>
+
+        div{
+
+            max-width: 600px;
+            height: 400px;
+            border: 4px outset rgb(158, 158, 226);
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 20px 20px 15px rgb(114, 114, 212);
+            overflow-wrap: anywhere;
+        }
+
+        input{
+
+            caret-color: blue;
+            border: none;
+            font-size: 30px;
+            border-bottom: 2px solid blue;
+            width: 5px;
+            font-family: cursive;
+            color: rgb(45, 45, 214);
+            
+        }
+
+        input:hover{
+
+            border: none;
+            border-bottom: 2px solid blue;
+            transition: all 0.5s ease-in;
+            
+        }
+
+        label{
+            font-size: 30px;
+            color: darkblue;
+            font-family: cursive;
+            margin-left: 20px;
+        }
+
+        button{
+
+            width: 120px;
+            height: 100px;
+            font-size: 25px;
+            font-weight: bold;
+            border-radius: 20px;
+            border: none;
+            box-shadow: 10px 10px 5px rgb(114, 114, 212);
+            margin: 10px;
+            background-color: rgb(24, 12, 255);
+            color: rgb(255, 255, 255);
+            font-family: cursive;
+        }
+
+        button:hover{
+
+            background-color: red;
+            box-shadow: 10px 10px 5px rgb(255, 148, 148);
+            transition: all 0.4s ease-in-out;
+            color: black;
+        }
+
+        h1{
+
+            font-size: 40px;
+            font-family: cursive;
+            color: rgb(4, 24, 243);
+        }
+
+    </style>
+
+</head>
+<body>
+    <div>
+
+        <label for="firstNum">First Number: </label>
+        <input type="text" id="firstNum"><br><br>
+        <label for="secondNum">Second Number: </label>
+        <input type="text" id="secondNum"><br><br>
+        <center>
+        <button id="add">Add Number</button>
+        <button id="sub">Subtract Number</button><br>
+        <button id="multi">Multiply Number</button>
+        <button id="div">Divide Number</button>
+        </center>
+    </div>
+
+        <h1>Answer: </h1>
+
+</body>
+</html>
